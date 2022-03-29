@@ -3,14 +3,14 @@ Um Framework de Folhas de Estilo em Cascata, com identificadores de selectores (
 
 Sabe-se de antemão que, para assuntos relacionados com as tecnologias, foi adotado o Inglês como padrão. No entanto, por desejo de ampliar os meus conhecimentos e disponibilzar para a comunidade PALOP uma forma amigável de embarcar juntp com o CSS inciei esse grandioso projecto.
 
-#Elementos
+# Elementos
  - Textos
  - Botões
  - Imagens
  - Elemntos de entrada
  - Tags
 
-#Componentes
+# Componentes
  - Bradcrumbs
  - Paginações
  - Alertas e Baras de estado
@@ -29,14 +29,14 @@ Sabe-se de antemão que, para assuntos relacionados com as tecnologias, foi adot
  - Precários
  - Janelas de Modal 
 
-#Blocos e Sessões
+# Blocos e Sessões
  - Menus de Navegação
  - Sessões Hero
  - Blocos de rodapé
  - Blocos de Call-to-action
  - Colunas de Features
 
-#Padrões de Layout
+# Padrões de Layout
  - Colunas de blocos ou cartões
  - Grelhas de blocos ou cartões
  - Z-pattern
