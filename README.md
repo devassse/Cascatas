@@ -46,5 +46,7 @@ Sabe-se de antemão que, para assuntos relacionados com as tecnologias, foi adot
  - Multicolunas/Magazines
  - Asymmetry/Experimental 
 
+
+
 Espero poder ajudar e que juntos possamos fazer valer.
-ABs.
+Abs.
