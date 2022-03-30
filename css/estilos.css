@@ -25,6 +25,10 @@ body {
 .accordao {
     width: 70%;
     margin: 100px auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
 .accordao ul {
     color: rgb(85, 85, 255);
@@ -33,11 +37,31 @@ body {
     flex-direction: column;
     gap: 10px;
 }
+.item {
+    box-shadow: 0 0 32px rgba(85, 85, 255, 0.1);
+    padding: 14px;
+
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    row-gap: 24px;
+    column-gap: 32px;
+    align-items: center;
+}
+.conteudo-escondido {
+    grid-column: 2;
+    display: none;
+}
 
 /* Number Size section */
 .texto-tamanho-12-100 {
     font-size: 12px;
     font-weight: 100;
+}
+.aberto {
+    border-top: 3px solid rgb(41, 41, 255)
+}
+.aberto .conteudo-escondido {
+    display: block;
 }
 
 
@@ -69,6 +93,9 @@ body {
 /* Colors section */
 .cor-azul-normal {
     color: rgb(41, 41, 255);
+}
+.cor-azul-escuro {
+    color: rgb(0, 35, 150);
 }
 
 /* Tamanhos e Cores de Icones */
@@ -111,4 +138,15 @@ body {
 /* Letter Spacing */
 .texto-espacamento-horizontal-1-0 {
     letter-spacing: 1.0;
+}
+
+
+/* Margins */
+
+.margem-baixo-14 {
+    margin-bottom: 14px;
+}
+
+.margem-14-auto {
+    margin: 14px 0;
 }
