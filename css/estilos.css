@@ -9,6 +9,13 @@ Date: 29 de Março de 2022
 
 /* Opção de Fonte escolhida por mim, sinta-se à vontade para usar ao seu Gosto */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&display=swap');
+
+:root {
+    --clr-azul-primario:  rgb(41, 41, 255);
+    --clr-azul-secundario: rgb(85, 85, 255);
+    --clr-cinza-primario: rgba(85, 85, 255, 0.1);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,26 +26,39 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.contentor-700 {
+    width: 70%;
+    margin: 100px auto;
+}
+
+/* Estruturas de Páginas - Layouts */
+.blocos-2 {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 14px;
+}
+
+.blocos-2 aside {
+    border-right: 2px solid var(clr-azul-primario);
+}
+
  /* Componentes */
 
 /* Accordion section */
 .accordao {
-    width: 70%;
-    margin: 100px auto;
-
     display: flex;
     flex-direction: column;
     gap: 14px;
 }
 .accordao ul {
-    color: rgb(85, 85, 255);
+    color: var(--clr-azul-secundario);
     margin-left: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 .item {
-    box-shadow: 0 0 32px rgba(85, 85, 255, 0.1);
+    box-shadow: 0 0 32px var(--clr-cinza-primario);
     padding: 14px;
 
     display: grid;
@@ -52,7 +72,28 @@ body {
     display: none;
 }
 
-/* Number Size section */
+/* Carousel */
+.carousel-testemunho {
+    background-color: var(--clr-azul-secundario);
+    display: flex;
+    align-items: center;
+    gap: 86px;
+}
+
+
+
+
+
+.alinhado-verticalmente {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+
+
+
+/* Sizing section */
 .texto-tamanho-12-100 {
     font-size: 12px;
     font-weight: 100;
@@ -107,6 +148,9 @@ body {
     stroke: rgb(41, 41, 255);
 }
 
+.texto-branco {
+    color: #fff;
+}
 
 
 /* Line Height */
@@ -143,10 +187,64 @@ body {
 
 /* Margins */
 
+.margem-baixo-10 {
+    margin-bottom: 10px;
+}
+
 .margem-baixo-14 {
     margin-bottom: 14px;
+}
+
+
+.margem-topo-6 {
+    margin-top: 6px;
+}
+.margem-topo-10 {
+    margin-top: 10px;
+}
+.margem-topo-14 {
+    margin-top: 14px;
 }
 
 .margem-14-auto {
     margin: 14px 0;
 }
+
+/* Paddings */
+.padding-32 {
+    padding: 32px;
+}
+
+.padding-32-86 {
+    padding: 32px 86px;
+}
+
+/* Imagens */
+.imagem-tamanho-200 {
+    width: 200px;
+}
+
+ /* Escalanomento */
+ .escalo-1-5 {
+    transform: scale(1.5);
+ }
+
+.margem-encurvada-8 {
+    border-radius: 8px;
+}
+
+ /* Sombras */
+ .sombra-baixo-24 {
+    box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+ }
+
+
+ /* Botões  */
+ .botao {
+    border: none;
+    padding: 0.6rem;
+    cursor: pointer;
+ }
+ .botao-carousel:hover {
+    border: 1px solid var(--clr-cinza-primario);
+ }
