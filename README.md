@@ -3,12 +3,12 @@ Um Framework de Folhas de Estilo em Cascata, com identificadores de selectores (
 
 Sabe-se de antemão que, para assuntos relacionados com as tecnologias, foi adotado o Inglês como padrão. No entanto, por desejo de ampliar os meus conhecimentos e disponibilzar para a comunidade PALOP uma forma amigável de embarcar juntos com o CSS iniciei este grandioso projecto.
 
-# SideNode
+# #sideNote
 Muitos dizem que é re-inventar a roda, mas, na minha humilde opinião, é necessário saber construir a roda para que possas reparar outras, certo?
 
 Com essa ideia em mente, decidi criar um projecto - denominei-o "Cascatas", é um framework CSS com os nomes dos selectores todos em Português.
 
-Hoje está vazio, mas em mais alguns dias estará minimamente utilizável e é Open-Source. 
+Hoje está vazio, mas com a colaboração da comunidade poderá crescer e inspirar jovens Desenvolvedores a ingressar e se aventurar nessa imensidão. 
 Com isso dito, convido toda a comunidade em participar.
 
 Hugs.
