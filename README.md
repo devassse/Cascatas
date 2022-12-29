@@ -1,7 +1,7 @@
 # Cascatas
 Um Framework de Folhas de Estilo em Cascata, com identificadores de selectores (CLASS's e ID's) em Português.
 
-Sabe-se de antemão que, para assuntos relacionados com as tecnologias, foi adotado o Inglês como padrão. No entanto, por desejo de ampliar os meus conhecimentos e disponibilzar para a comunidade PALOP uma forma amigável de embarcar juntos com o CSS inciei esse grandioso projecto.
+Sabe-se de antemão que, para assuntos relacionados com as tecnologias, foi adotado o Inglês como padrão. No entanto, por desejo de ampliar os meus conhecimentos e disponibilzar para a comunidade PALOP uma forma amigável de embarcar juntos com o CSS iniciei este grandioso projecto.
 
 # SideNode
 Muitos dizem que é re-inventar a roda, mas, na minha humilde opinião, é necessário saber construir a roda para que possas reparar outras, certo?
